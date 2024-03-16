@@ -1,0 +1,16 @@
+{
+  "name": "todo_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "cd .. && husky install todo_cli/.husky"
+  },
+  "author": "Yashwini <yashwinireddyg@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "jest": "^29.7.0"
+  }
+}
